@@ -1,0 +1,335 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+/* Header styles */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+#contact{
+    display: flex;
+    justify-content: space-around;
+}
+#logo1{
+    color: black;
+    background-image: url("logo1.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+#logo2{
+    color: black;
+    background-image: url("sat.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+#title{
+    margin-top: 10px;
+}
+.title{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* Hero section styles */
+.hero {
+    background-image: url("heroback.png");
+    background-size: cover;
+    color: whitesmoke;
+    opacity: 1;
+    height: 300px; 
+    padding: 50px 0;
+    text-align: end;
+}
+
+
+.hero h2 {
+    margin: 0;
+    font-size: 32px;
+}
+#student{
+    display: flex;
+    justify-content: center;
+}
+
+#stdname{
+    height: 90px;
+    width: 750px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.totalstu{
+    display: flex;
+    justify-content: center;
+
+}
+#totalstu{
+    height: 120px;
+    width: 750px;
+    background-color:lightskyblue;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+     
+     
+}
+#totalstu h1{
+    color: rgb(52, 50, 50);
+}
+.boystu{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#boystu{
+    height: 120px;
+    width: 750px;
+    background-color:lightskyblue;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+     
+     
+}
+#boystu h1{
+    color: rgb(52, 50, 50);
+}
+.girlstu{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#girlstu{
+    height: 120px;
+    width: 750px;
+    background-color:lightskyblue;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+     
+     
+}
+#girlstu h1{
+    color: rgb(52, 50, 50);
+}
+/* Basic styling for all student containers */
+#totalstu, #boystu, #girlstu {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background and transform */
+}
+
+/* Hover effect for total student container */
+#totalstu:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+}
+
+/* Hover effect for boys student container */
+#boystu:hover {
+    background-color: #e0f7fa; /* Light cyan background on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+}
+
+/* Hover effect for girls student container */
+#girlstu:hover {
+    background-color: #fce4ec; /* Light pink background on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+}
+.school{
+    display: flex;
+    justify-content: center;
+}
+
+#school{
+    height: 90px;
+    width: 750px;
+    background-color: rgb(51, 237, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.totalsch{
+    display: flex;
+    justify-content: center;
+
+}
+#totalsch{
+    height: 120px;
+    width: 750px;
+    background-color:rgb(210, 244, 156);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+     
+     
+}
+#totalsch h1{
+    color: rgb(52, 50, 50);
+}
+.local{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#local{
+    height: 120px;
+    width: 750px;
+    background-color:rgb(210, 244, 156);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+     
+     
+}
+#local h1{
+    color: rgb(52, 50, 50);
+}
+.prisch{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#prisch{
+    height: 120px;
+    width: 750px;
+    background-color:rgb(210, 244, 156);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+     
+     
+}
+#prisch h1{
+    color: rgb(52, 50, 50);
+}
+/* Basic styling for all student containers */
+#totalsch, #local, #prisch {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background and transform */
+}
+
+/* Hover effect for total student container */
+#totalsch:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+}
+
+/* Hover effect for boys student container */
+#local:hover {
+    background-color: #e0f7fa; /* Light cyan background on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+}
+
+/* Hover effect for girls student container */
+#prisch:hover {
+    background-color: #fce4ec; /* Light pink background on hover */
+    transform: scale(1.05); /* Slightly enlarge the element */
+}
+
+
+/* Content section styles */
+.content {
+    padding: 20px 0;
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 22px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
